@@ -16,6 +16,7 @@
 		E0E2919F2C4CEA42009CA928 /* NewsAPIResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0E2919E2C4CEA42009CA928 /* NewsAPIResponse.swift */; };
 		E0E291A22C4CEBF6009CA928 /* ArticleRowView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0E291A12C4CEBF6009CA928 /* ArticleRowView.swift */; };
 		E0E291A52C4D4124009CA928 /* ArticleListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0E291A42C4D4124009CA928 /* ArticleListView.swift */; };
+		E0E291D02C4FC590009CA928 /* SafariView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0E291CF2C4FC590009CA928 /* SafariView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -30,6 +31,7 @@
 		E0E291A12C4CEBF6009CA928 /* ArticleRowView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArticleRowView.swift; sourceTree = "<group>"; };
 		E0E291A32C4CF2AB009CA928 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
 		E0E291A42C4D4124009CA928 /* ArticleListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArticleListView.swift; sourceTree = "<group>"; };
+		E0E291CF2C4FC590009CA928 /* SafariView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SafariView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -62,6 +64,7 @@
 		E0E2918A2C4CE07A009CA928 /* NewsClone */ = {
 			isa = PBXGroup;
 			children = (
+				E0E291D12C4FCD9E009CA928 /* API */,
 				E0E291A32C4CF2AB009CA928 /* Info.plist */,
 				E0E2918B2C4CE07A009CA928 /* NewsCloneApp.swift */,
 				E0E2918D2C4CE07A009CA928 /* ContentView.swift */,
@@ -96,8 +99,16 @@
 			children = (
 				E0E291A12C4CEBF6009CA928 /* ArticleRowView.swift */,
 				E0E291A42C4D4124009CA928 /* ArticleListView.swift */,
+				E0E291CF2C4FC590009CA928 /* SafariView.swift */,
 			);
 			path = Views;
+			sourceTree = "<group>";
+		};
+		E0E291D12C4FCD9E009CA928 /* API */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = API;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -177,6 +188,7 @@
 				E0E2918C2C4CE07A009CA928 /* NewsCloneApp.swift in Sources */,
 				E0E2919F2C4CEA42009CA928 /* NewsAPIResponse.swift in Sources */,
 				E0E2919D2C4CE39B009CA928 /* Article.swift in Sources */,
+				E0E291D02C4FC590009CA928 /* SafariView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
